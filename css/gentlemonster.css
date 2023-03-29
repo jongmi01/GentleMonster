@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    color: #333;
+    line-height: 1;
+}
+
+.hd_01 {
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #333;
+}
+
+.hd_01 h1 {
+    color: #000;
+    font-weight: 600;
+}
+
+.hd_01 img {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.hd_01 .inner {
+    width: 1820px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    position: absolute;
+    top: 0;
+    left:40px;
+}
+
+.hd_01 .inner nav .gnb .depth01 {
+    position: relative;
+    display: inline-block;
+    padding: 0 50px;
+    vertical-align: top;
+    color: #000;
+    font-weight: 500;
+}
+
+.hd_01 .inner nav .gnb .depth01 .depth02 {
+    padding: 0 0 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: none;
+    color: #fff;
+    background-color: #000;
+}
+
+.hd_01 .inner nav .gnb .depth01 .depth02 li {
+    line-height: 1;
+    padding: 10px 0 10px;
+}
+
+.hd_01 .inner nav .gnb:hover .depth01 .depth02 {
+    display: block;
+}
+
+.hd_01 .inner .menu {
+    line-height: 80px;
+}
+.cont01 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont01 .text {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0 60px;
+    align-items: flex-end;
+}
+
+.cont01 .text h3 {
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cont01 .text p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cont01 .list .item {
+   display: inline-block;
+   margin-bottom: 60px;
+}
+
+.cont01 .list .item img {
+    width: 350px;
+    height: 400px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.cont01 .list .item p {
+    font-weight: 400;
+    margin: 20px 0 10px;
+}
+
+.cont01 .list .item span {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cont02 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont02 .text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 150px 0 60px;
+}
+
+.cont02 .text h3 {
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cont02 .text p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cont02 .list {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cont02 .list:nth-child(3) p {
+    font-weight: 500;
+    box-shadow:3px 3px #808080;
+}
+
+.cont02 .list img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.cont02 .list p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 40px;
+    font-weight: 400;
+}
+
+.cont02 .item img {
+    height: 700px;
+}
+
+.cont03 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cont03 .text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 150px 0 60px;
+}
+
+.cont03 .text h3 {
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cont03 .text p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cont03 .list {
+    display: inline-block;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+.cont03 .list img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.cont03 .list p {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0 40px;
+    font-weight: 400;
+}
+
+.cont03 .item img {
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+footer {
+    height: 350px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+footer nav .gnb01 {
+    display: flex;
+    line-height: 16px;
+    margin: 0 40px 0;
+    text-align: center;
+}
+
+footer nav .gnb01 h3 {
+    font-size: 20px;
+    margin-right: 250px;
+    font-weight: 500;
+}
+
+footer nav .gnb01 .depth03 {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+footer nav .gnb01 .depth04 a {
+    font-size: 16px;
+    line-height: 16px;
+    height: 100px;
+}
+
+footer nav .gnb01 .depth03 .depth04 {
+    padding: 0 0 20px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+footer nav .gnb01 .depth03 .depth04 li {
+    margin:  0 0 10px;
+    color: #000;
+    width: 100px;
+}
+
+footer nav .gnb01:hover .depth03 .depth04 {
+    display: block;
+}
+
+footer nav .gnb01 div {
+    margin-left: 100px;
+    text-align: center;
+}
+
+footer nav .gnb01 div h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+footer nav .gnb01 img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.end ul {
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+}
+
+.end ul li {
+    margin: 0 0 5px;
+}
+
+.end p {
+    margin: 10px 30px 20px;
+    font-weight: 600;
+}
+
+.end ul li span {
+    margin: 5px;
+}
